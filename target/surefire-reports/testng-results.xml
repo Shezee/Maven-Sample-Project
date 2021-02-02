@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-02T00:30:13 CET" name="All Test Suite" finished-at="2021-02-02T00:30:18 CET" duration-ms="5232">
+    <groups>
+    </groups>
+    <test started-at="2021-02-02T00:30:13 CET" name="C:/Users/AJ/IdeaProjects/MavenProject" finished-at="2021-02-02T00:30:18 CET" duration-ms="5232">
+      <class name="com.samplemaven.SignInTest">
+        <test-method is-config="true" signature="driverInitialize()[pri:0, instance:com.samplemaven.SignInTest@48524010]" started-at="2021-02-02T00:30:04 CET" name="driverInitialize" finished-at="2021-02-02T00:30:13 CET" duration-ms="9570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.samplemaven.SignInTest@48524010]" started-at="2021-02-02T00:30:13 CET" name="signIn" data-provider="getData" finished-at="2021-02-02T00:30:14 CET" duration-ms="1167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shaz@dfsd.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mah]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.samplemaven.SignInTest@48524010]" started-at="2021-02-02T00:30:14 CET" name="signIn" data-provider="getData" finished-at="2021-02-02T00:30:15 CET" duration-ms="855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asb@sdfs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:com.samplemaven.SignInTest@48524010]" started-at="2021-02-02T00:30:15 CET" name="signIn" data-provider="getData" finished-at="2021-02-02T00:30:16 CET" duration-ms="915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[the@te.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="forgotPassword()[pri:1, instance:com.samplemaven.SignInTest@48524010]" started-at="2021-02-02T00:30:16 CET" name="forgotPassword" finished-at="2021-02-02T00:30:18 CET" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:com.samplemaven.SignInTest@48524010]" started-at="2021-02-02T00:30:18 CET" name="driverQuit" finished-at="2021-02-02T00:30:18 CET" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- com.samplemaven.SignInTest -->
+    </test> <!-- C:/Users/AJ/IdeaProjects/MavenProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
